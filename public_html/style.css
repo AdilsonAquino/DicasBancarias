@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/* reset css */
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+img{
+    max-width: 100%;
+}
+#logo{
+    text-align: center;
+    flex: 1;
+}
+#logo img{
+    border: 3px #181818 solid;
+    border-radius: 2em;
+}
+/* configurando header */
+header{
+    background: #181818;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto;
+    padding: 1em;
+}
+#menu{
+    flex : 1;
+}
+#menu a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.13em;
+    color: #8758FF;
+    font-size: 1em;
+    padding: 0.75em;
+    align-items: center;
+}
+#corrente{
+    background: #F2F2F2;
+    padding-bottom: 7em;
+    border: 0px #F2F2F2 solid;
+    padding: 7em;
+}
+#corrente h2{
+    font-size: 1.75em;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.12em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+#corrente p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
+#poup{
+    background-color: #5CB8E4;
+    padding-bottom: 7em;
+    border: 0px #5CB8E4 solid;
+    padding: 7em;
+}
+#poup h2{
+    font-size: 1.75em;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.12em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#poup p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
+#quempode{
+    background-color: #F2F2F2;
+    padding-bottom: 7em;
+    border: 0px #F2F2F2 solid;
+    padding: 7em;
+}
+#quempode h2{
+    font-size: 1.75em;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.12em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+#quempode p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
+
+#como{
+    background-color: #5CB8E4;
+    padding-bottom: 7em;
+    border: 0px #5CB8E4 solid;
+    padding: 7em;
+}
+#como h2{
+    font-size: 1.75em;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.12em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+#como p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
+#cuidados{
+    background-color: #F2F2F2;
+    padding-bottom: 7em;
+    border: 0px #F2F2F2 solid;
+    padding: 7em;
+}
+#cuidados h2{
+    font-size: 1.75em;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.12em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#cuidados p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
+#comoEscolher{
+    background-color: #5CB8E4;
+    padding-bottom: 7em;
+    border: 0px #5CB8E4 solid;
+    padding: 7em;
+}
+#comoEscolher h2{
+    font-size: 1.75em;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.12em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+#comoEscolher p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
+#taxas{
+    background-color: #F2F2F2;
+    padding-bottom: 7em;
+    border: 0px #F2F2F2 solid;
+    padding: 7em;
+}
+
+#taxas h2{
+    font-size: 1.75em;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.12em;
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+#taxas p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    font-size: 1.25em;
+}
+footer{
+    padding: 1.23em;
+    min-width: 100%;
+    background-color: #181818;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    color:#8758FF;
+}
+#email{
+    font-family: 'Roboto', sans-serif;
+    
+}
+#botaoVoltar-cel{
+    display: none;
+}
+/* Underline From Center */
+.item {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    position: relative;
+    overflow: hidden;
+}
+.item:before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    left: 51%;
+    right: 51%;
+    bottom: 0;
+    background: #8758FF;
+    height: 2px;
+    -webkit-transition-property: left, right;
+    transition-property: left, right;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+}
+.item:hover:before, .item:focus:before, .item:active:before {
+    left: 0;
+    right: 0;
+}
+#container-imagem {
+    min-height: 500px;
+    /* adicionando imagem de fundo */
+    background: url(imagens/bannerInicial.png);
+    background-size: cover;
+}
+#voltarTopo img{
+    border-radius: 100px;
+}
+#voltarTopo{
+    width: 48px;
+    height: 48px;
+    position: fixed;
+    margin-left: 97%;
+    border-radius: 100px;
+    z-index: 999;
+}
+@media (max-width:500px) {
+    #container-imagem{
+        display: none;
+    }
+    #imagem-cel{
+        min-height: 300px;
+        background: url(imagens/bannercel.png);
+        background-size: cover;
+    }
+    #logo{
+        display: none;
+    }
+    #menu a{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 0.88em;
+    }
+    footer{
+        flex-direction: column;
+    }
+    #voltarTopo{
+        margin-left: 90%;
+    }
+}
